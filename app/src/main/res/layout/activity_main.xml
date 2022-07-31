@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.skam.Main">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="202dp"
+        android:fontFamily="@font/twoten"
+        android:text="@string/title"
+        android:textColor="@android:color/black"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:layout_width="344dp"
+        android:layout_height="369dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/title"
+        android:src="@drawable/logologo" />
+
+    <Button
+        android:id="@+id/Startbtn"
+        android:layout_width="161dp"
+        android:layout_height="75dp"
+        android:layout_alignStart="@+id/Infobtn"
+        android:layout_alignTop="@+id/Insbtn"
+        android:text="START"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="@font/bebasbold"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="160dp"
+        android:layout_height="73dp"
+        android:layout_alignTop="@+id/Infobtn"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="@font/bebasbold"
+        android:text="ABOUT"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Infobtn"
+        android:layout_width="160dp"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="29dp"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="@font/bebasbold"
+        android:text="DISORDERS' DESCRIPTION"
+        android:textColor="#ffffff"
+        android:textSize="30dp"  />
+
+    <Button
+        android:id="@+id/Insbtn"
+        android:layout_width="160dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="117dp"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="@font/bebasbold"
+        android:text="INSTRUCTIONS"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+</RelativeLayout>

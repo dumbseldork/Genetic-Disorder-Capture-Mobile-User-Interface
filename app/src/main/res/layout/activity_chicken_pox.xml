@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChickenPox"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/chicpox"
+        android:layout_width="379dp"
+        android:layout_height="572dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/albinism"
+        tools:layout_editor_absoluteX="2dp" />
+
+
+    <TextView
+        android:id="@+id/chicpox_desc"
+        android:layout_width="338dp"
+        android:layout_height="147dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/bebasbook"
+        android:text="Albinism is an inherited genetic condition that reduces the amount of melanin pigment formed in the skin, hair and/or eyes. People with albinism have vision problems that are not correctable with eyeglasses, and many have low vision.There’s no cure for albinism. However, treatment can relieve symptoms and prevent sun damage."
+        android:textAlignment="center"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/chicpox"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/bebasbold"
+        android:text="@string/back"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:visibility="visible" />
+
+</RelativeLayout>

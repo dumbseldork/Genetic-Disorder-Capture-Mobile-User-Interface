@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".DiseaseInfo"
+    android:background="@drawable/grad">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true">
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/chicpox_btn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/relativeLayout"
+        android:layout_alignTop="@+id/pity_btn"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="@font/bebasbold"
+        android:text="ALBINISM"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/acne_btn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/relativeLayout"
+        android:layout_alignTop="@+id/pso_btn"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="@font/bebasbold"
+        android:text="CRI DU CHAT SYNDROME"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/ecz_btn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/relativeLayout"
+        android:layout_alignTop="@+id/vt_btn"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="@font/bebasbold"
+        android:text="NEUROFIBROMATOSIS"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/pity_btn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/relativeLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="239dp"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="@font/bebasbold"
+        android:text="TRISOMY 13"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/pso_btn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/relativeLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="160dp"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="@font/bebasbold"
+        android:text="TRISOMY 18"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/vt_btn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/relativeLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="76dp"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="@font/bebasbold"
+        android:text="TRISOMY 21"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/relativeLayout"
+        android:layout_alignEnd="@+id/relativeLayout"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/bebasbold"
+        android:text="BACK"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="269dp"
+        android:layout_height="390dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/sastart"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    </RelativeLayout>

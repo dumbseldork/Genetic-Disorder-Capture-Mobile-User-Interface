@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Psoriasis"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/psopic"
+        android:layout_width="379dp"
+        android:layout_height="572dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/trisomyeighteen"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="316dp"
+        android:layout_height="180dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:fontFamily="@font/bebasbook"
+        android:text="Trisomy 18, also called Edwards syndrome, is a chromosomal condition associated with abnormalities in many parts of the body such as small, abnormally shaped head, a small jaw and mouth, and clenched fists with overlapping fingers.  Affected individuals may have heart defects and abnormalities of other organs that develop before birth. Due to the presence of several life-threatening medical problems, many individuals with trisomy 18 die before birth or within their first month."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16dp" />/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/psopic"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/bebasbold"
+        android:text="@string/back"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:visibility="visible" />
+
+</RelativeLayout>

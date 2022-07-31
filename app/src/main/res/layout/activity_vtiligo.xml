@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.skam.Vtiligo"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/vtpic"
+        android:layout_width="379dp"
+        android:layout_height="572dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/tisomytwentyone"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="83dp"
+        android:fontFamily="@font/bebasbook"
+        android:text="Down syndrome is a chromosomal condition that is associated with intellectual disability (usually mild to moderate), a characteristic facial appearance, and weak muscle tone (hypotonia) in infancy. Individuals with Down syndrome have an increased risk of developing several medical conditions. Their speech and language develop later and more slowly than in children without Down syndrome, and affected individuals' speech may be more difficult to understand. Thy also have behavioral issues that can include attention problems, obsessive/compulsive behavior, and stubbornness or tantrums."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/vtpic"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/bebasbold"
+        android:text="@string/back"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:visibility="visible" />
+</RelativeLayout>

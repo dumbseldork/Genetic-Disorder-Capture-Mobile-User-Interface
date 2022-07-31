@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Gendis Capture</string>
+
+    <string name="hot">hot</string>
+    <string name="not">not</string>
+
+    <string name="take_photo">Take photo</string>
+    <string name="Acne">TODO</string>
+
+    <string name="log_in">Log In</string>
+    <string name="username">Username</string>
+    <string name="todo">TODO</string>
+    <string name="password">Password</string>
+    <string name="start">Start</string>
+    <string name="disease_info">Disease Info</string>
+    <string name="instructions">Instructions</string>
+    <string name="camera">Camera</string>
+    <string name="capture">Capture</string>
+    <string name="take_a_picture_of_the_affected_skin">Take a picture of the affected skin</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="about">About</string>
+    <string name="classification_of_skin_disease_through_deep_learning_via_android_smartphone">Classification of Skin Disease through Deep Learning via Android Smartphone</string>
+    <string name="skam">SKam</string>
+    <string name="logo1">logo1</string>
+    <string name="project_title">Project Title</string>
+    <string name="proponents">Proponents</string>
+    <string name="adviser">Adviser</string>
+    <string name="wilmarpicture">wilmarpicture</string>
+    <string name="alberio_jean_wilmar_g">Alberio, Jean Wilmar G.</string>
+    <string name="alberio_s_profile">Alberio\'s Profile</string>
+    <string name="jessica_s_velasco">Jessica S. Velasco</string>
+    <string name="home">Home</string>
+    <string name="engr_jessica_s_velasco">Engr. Jessica S. Velasco</string>
+    <string name="skin_camera">SKin cAMera</string>
+    <string name="chicken_pox">Chicken Pox</string>
+    <string name="skam1">TextView</string>
+    <string name="skin_camera1">(SKin cAMera)</string>
+    <string name="chickenpox">chickenpox</string>
+    <string name="caused_by_the_herpes_varicella_zoster_virus_chicken_pox_is_a_viral_illness_characterized_by_a_very_itchy_red_rash_and_is_one_of_the_most_common_diseases_of_childhood_though_chicken_pox_is_highly_contagious_people_who_have_had_chicken_pox_almost_always_develop_lifetime_immunity_against_it_however_the_virus_remains_dormant_in_the_body_and_it_can_reactivate_later_in_life_and_cause_shingles">Caused by the herpes varicella-zoster virus, chicken pox is a viral illness characterized by a very itchy red rash and is one of the most common diseases of childhood. Though chicken pox is highly contagious, people who have had chicken pox almost always develop lifetime immunity against it. However, the virus remains dormant in the body and it can reactivate later in life and cause shingles.</string>
+    <string name="acnepic">acnepic</string>
+    <string name="acne">Acne</string>
+    <string name="also_known_as_acne_vulgaris_is_a_chronic_inflammatory_skin_condition_and_a_long_term_skin_disease_that_occurs_when_hair_follicles_are_clogged_with_oil_and_dead_skin_cells_from_the_skin_it_affects_areas_of_the_skin_with_a_high_number_of_oil_glands_like_the_face_chest_back_shoulder_neck_and_upper_arms_it_is_not_dangerous_but_the_resulting_appearance_can_lead_to_anxiety_and_reduced_self_esteem_because_it_may_lead_to_scarring">Also known as acne vulgaris, is a chronic, inflammatory skin condition and a long-term skin disease that occurs when hair follicles are clogged with oil and dead skin cells from the skin. It affects areas of the skin with a high number of oil glands like the face, chest, back, shoulder, neck and upper arms. It is not dangerous, but the resulting appearance can lead to anxiety and reduced self-esteem because it may lead to scarring.</string>
+    <string name="eczemapic">eczemapic</string>
+    <string name="eczema">Eczema</string>
+    <string name="eczema_atopic_dermatitis_is_a_skin_condition_characterized_by_rash_dryness_inflammation_and_itching_of_the_skin_it_is_rarely_fatal_and_not_a_contagious_condition_it_commonly_occurs_in_infants_symptoms_vary_according_to_age_but_they_often_include_scaly_itchy_patches_of_skin">Eczema (atopic dermatitis) is a skin condition characterized by rash, dryness, inflammation and itching of the skin. It is rarely fatal and not a contagious condition. It commonly occurs in infants. Symptoms vary according to age but they often include scaly, itchy patches of skin.</string>
+    <string name="pitypic">pitypic</string>
+    <string name="pityriasis_rosea">Pityriasis Rosea</string>
+    <string name="pityriasis_rosea_is_a_common_skin_disease_that_causes_patches_and_rashes_on_the_skin_the_rash_usually_disappears_on_its_own_even_without_treatment_mild_itching_is_a_problem_for_the_people_who_has_it_before_the_mother_patch_herald_patch_appears_a_person_with_it_may_feel_tired_as_though_having_a_cold_nausea_headache_sore_throat_and_a_loss_of_appetite">Pityriasis Rosea is a common skin disease that causes patches and rashes on the skin. The rash usually disappears on its own even without treatment. Mild itching is a problem for the people who has it. Before the Mother patch (herald patch) appears, a person with it may feel tired as though having a cold, nausea, headache, sore throat and a loss of appetite.</string>
+    <string name="psopic">psopic</string>
+    <string name="psoriasis">Psoriasis</string>
+    <string name="psoriasis_is_a_chronic_skin_condition_that_causes_plaques_of_thickened_scaling_skin_it_speeds_up_the_life_cycle_of_skin_cells_causing_the_extra_skin_cells_to_form_scales_and_red_patches_that_are_itchy_and_painful">Psoriasis is a chronic skin condition that causes plaques of thickened, scaling skin. It speeds up the life cycle of skin cells causing the extra skin cells to form scales and red patches that are itchy and painful.</string>
+    <string name="tcpic">tcpic</string>
+    <string name="tinea_corporis">Tinea Corporis</string>
+    <string name="tinea_corporis_or_ringworm_is_a_fungal_infection_of_the_arms_and_legs_and_on_glabrous_skin_e_g_skin_regions_except_the_scalp_palms_soles_and_groin_it_is_caused_by_a_fungus_known_as_dermatophyte_these_tiny_organisms_normally_live_on_the_superficial_skin_surface_this_disease_can_be_acquired_by_person_to_person_transfer_usually_via_direct_skin_contact_with_someone_who_has_it_it_is_also_common_to_acquire_it_with_animals_someone_with_weakened_immune_system_like_those_infected_with_hiv_or_taking_immunosuppressive_drugs_are_at_high_risk_to_being_infected">Tinea Corporis or ringworm is a fungal infection of the arms and legs, and on glabrous skin e.g. skin regions except the scalp, palms, soles and groin. It is caused by a fungus known as dermatophyte. These tiny organisms normally live on the superficial skin surface. This disease can be acquired by person-to-person transfer usually via direct skin contact with someone who has it. It is also common to acquire it with animals. Someone with weakened immune system like those infected with HIV or taking immunosuppressive drugs are at high risk to being infected.</string>
+    <string name="vtpic">vtpic</string>
+    <string name="vtiligo">Vtiligo</string>
+    <string name="vitiligo_is_a_skin_disorder_in_which_white_patches_of_skin_appear_on_the_body_it_may_be_localized_to_one_area_or_on_several_different_areas_of_the_body_the_color_of_hair_and_skin_is_determined_by_the_melanin_vitiligo_happens_when_the_cells_that_produces_melanin_die_or_stops_functioning">Vitiligo is a skin disorder in which white patches of skin appear on the body. It may be localized to one area, or on several different areas of the body. The color of hair and skin is determined by the melanin. Vitiligo happens when the cells that produces melanin die or stops functioning.</string>
+    <string name="diseases_information">Diseases Information</string>
+    <string name="vitiligo">Vitiligo</string>
+    <string name="vitiligo1">vitiligo</string>
+</resources>
